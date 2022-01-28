@@ -38,12 +38,3 @@ class Deque:
         return self.items.pop()
         
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
