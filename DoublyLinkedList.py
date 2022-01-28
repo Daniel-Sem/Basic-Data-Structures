@@ -250,3 +250,6 @@ class DoublyLinkedList:
             self.tail = previous
         
         return current.get_data()
+    
+    
+    
