@@ -5,11 +5,13 @@ Created on Wed Jan  5 11:37:34 2022
 @author: dcsem
 """
 
-# 21. Implement a queue using linked lists.
-
 import UnorderedList
 
 class Queue:
+    
+    '''Implementation of a queue using an unordered linked lists.
+        The method enqueue takes constant time O(1), while the method
+        dequeue takes linear time O(n), where n is the length of the queue.'''
     
     def __init__(self):
         
