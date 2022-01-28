@@ -5,11 +5,11 @@ Created on Wed Jan  5 11:25:40 2022
 @author: dcsem
 """
 
-# 20. Implement a stack using linked lists.
-
 import UnorderedList
 
 class Stack:
+    '''Implementation of a Stack ADT using unordered linked list. The method push takes O(1) time,
+        while the method pop takes linear time O(n), where n is the length of the stack.'''
     
     def __init__(self):
         
