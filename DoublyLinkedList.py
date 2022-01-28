@@ -41,7 +41,7 @@ class Node:
 
 class DoublyLinkedList:
     '''Because of the two references - for head and tail - methods add and append take constant time O(1). The pop
-        method also takes constant time, while the remove method takes O(n), where n is the lenght of the data.'''
+        method also takes constant time, while the remove method takes O(n), where n is the length of the data.'''
     def __init__(self):
         
         self.head = None
