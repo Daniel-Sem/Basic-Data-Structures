@@ -7,7 +7,9 @@ Created on Tue Dec 28 10:03:53 2021
 
 class Deque:
     
-    """Instance of the Deque ADT, implemented with a list."""
+    """Instance of the Deque ADT, implemented with a list.
+        Methods add_frond and remove from take constant time O(1), while methods add_rear
+        and remove_rear from take linear time O(n), where n is the length of the data."""
     
     def __init__(self):
         
