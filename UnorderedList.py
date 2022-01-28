@@ -35,6 +35,7 @@ class UnorderedList:
     def __init__(self):
         
         self.head = None
+        self.tail = None
         self.size = 0
         
     def is_empty(self):
@@ -167,7 +168,7 @@ class UnorderedList:
             return "Not found"
      
      
-    def pop(self, *pos):
+    def pop(self):
         """Pops a value from the list."""
         current = self.head
         previous = None
