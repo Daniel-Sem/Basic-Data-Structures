@@ -5,7 +5,7 @@ Created on Fri Dec 10 12:36:50 2021
 @author: dcsem
 """
 class Stack:
-    """ Instance of a Stack, implemented with a list, that pushes and pops from
+    """Instance of a Stack ADT, implemented with a list, that pushes and pops from
     the last position in the list. That way both push and pop operations take constant time O(1)."""
     
     def __init__(self):
