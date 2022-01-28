@@ -36,47 +36,5 @@ class Stack:
       return print(self.items)
 
 
-# pop
-# push
-# size
-# is_empty
-# print
 
-# s = Stack()
 
-# print(s.is_empty())
-# s.push(23)
-# s.push(11)
-# s.push(22)
-# s.push(55)
-# s.push(33)
-# s.push(56)
-# s.push(18)
-# s.push(71)
-# s.push(64)
-# s.push(2)
-# print(s.is_empty())
-# s.show()
-# print(s.size())
-
-# print(s.pop())
-# print(s.pop())
-# print(s.pop())
-# print(s.pop())
-# print(s.pop())
-
-# s.show()
-# print(s.size())
-
-# s.push(56)
-# s.push(18)
-# s.push(71)
-
-# s.show()
-# print(s.size())
-
-# print(s.pop())
-# print(s.pop())
-
-# s.show()
-# print(s.size())
