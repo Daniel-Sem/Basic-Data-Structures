@@ -40,7 +40,8 @@ class Node:
         return self.back
 
 class DoublyLinkedList:
-    
+    '''Because of the two references - for head and tail - methods add and append take constant time O(1). The pop
+        method also takes constant time, while the remove method takes O(n), where n is the lenght of the data.'''
     def __init__(self):
         
         self.head = None
@@ -62,25 +63,6 @@ class DoublyLinkedList:
             self.head = current
             next_node.set_back(self.head)
             
-        
-        # current = self.head
-        # previous = None
-        # while current != None:
-        #     previous = current
-        #     current = current.get_next()
-            
-        # if self.head == None:
-            
-        #     self.head = Node(item)
-            
-        # else:
-            
-        #     current = Node(item)
-            
-        #     previous.set_next(current)
-        #     current.set_back(previous)
-        #     self.tail = current
-
     
     def remove(self, item):
         '''Removes the given item from the list. It needs the item and modifies the
