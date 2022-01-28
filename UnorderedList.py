@@ -7,9 +7,11 @@ Created on Tue Dec 28 10:39:39 2021
 
 class Node:
     
-    def __init__(self, init_data):
+    '''The node objects hold the payload and a reference to the next node.'''
+    
+    def __init__(self, data):
         
-        self.data = init_data
+        self.data = data
         self.next = None
     
     def get_data(self):
@@ -31,7 +33,11 @@ class Node:
     
     
 class UnorderedList:
-    """Instance of Unordered list ADT, build with Nodes as data holders."""
+    
+    """An instance of Unordered list ADT, build with Node objects.
+        Methods add and append take constant time O(1). Methods pop, insert,
+        search and remove take linear time O(n), because of the traversal process."""
+    
     def __init__(self):
         
         self.head = None
@@ -122,16 +128,7 @@ class UnorderedList:
             self.tail = temp
             
         self.size += 1
-        
-  
-        # # The follwoig is the normal implementation of append module
-        # current = self.head
-        
-        # while current.get_next() != None:
-        #     current = current.get_next()
-        
-        # current.set_next(Node(new_data))
-                
+                       
      
     def insert(self, new_data, pos):
         """Use to insert a given value on a given position in the list."""  
