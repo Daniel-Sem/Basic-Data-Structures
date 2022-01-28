@@ -250,10 +250,3 @@ class DoublyLinkedList:
             self.tail = previous
         
         return current.get_data()
-
-
-# print('Poped item:',dll.pop_pos(4))
-# print('Poped item:',dll.pop_pos(3))
-
-# dll.show()
-# print('Size is:', dll.size())
