@@ -7,6 +7,8 @@ Created on Wed Jan  5 10:09:54 2022
 
 class Node:
     
+    '''Each node holds payload and a reference to the next node in the ordered list.'''
+    
     def __init__(self, data):
         
         self.data = data
@@ -30,6 +32,8 @@ class Node:
     
 
 class OrderedList:
+    
+    '''Instance of the Ordered List ADT. Methods add, search and remove take linear time O(n) since they require traversal of the ordered list.'''
     
     def __init__(self):
         
