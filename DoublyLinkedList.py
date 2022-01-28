@@ -11,7 +11,9 @@ Created on Thu Jan  6 09:12:48 2022
 
 
 class Node:
-    
+    '''In this implementation of a doubly linked list each node has a reference to the next node
+    as well as a reference to the preceding node. The head reference also contains two references,
+    one to the first node in the linked list and one to the last.'''
     def __init__(self, data):
         
         self.data = data
