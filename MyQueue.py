@@ -7,7 +7,10 @@ Created on Wed Dec 22 09:16:20 2021
 
 class Queue: 
     """Instance of the Queue ADT, implemented with a list, which enqueues from
-    the beggining and dequeues from the last item of the list."""
+    the beginning and dequeues from the last item of the list. The enqueue method takes
+    O(n) time, because the insertion in the underlying python list takes linear time.
+    The dequeue method takes constant time O(1)."""
+    
     def __init__(self):
         
         self.items = []
