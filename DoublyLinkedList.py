@@ -4,11 +4,6 @@ Created on Thu Jan  6 09:12:48 2022
 
 @author: dcsem
 """
-# Doubly linked list. In this implementation, each node has a reference
-# to the next node (commonly called next) as well as a reference to the preceding node
-# (commonly called back). The head reference also contains two references, one to the
-# first node in the linked list and one to the last.
-
 
 class Node:
     '''In this implementation of a doubly linked list each node has a reference to the next node
@@ -88,7 +83,7 @@ class DoublyLinkedList:
 
     
     def remove(self, item):
-        '''Removes the item from the list. It needs the item and modifies the
+        '''Removes the given item from the list. It needs the item and modifies the
             list. Assumes the item is present in the list.'''
         current = self.head
         previous = None
@@ -194,7 +189,7 @@ class DoublyLinkedList:
         return count
 
     def insert(self, pos, item):
-        '''adds a new item to the list at position pos. It needs the item and
+        '''Adds a new item to the list at position pos. It needs the item and
         returns nothing. Assume the item is not already in the list and
         there are enough existing items to have position pos.'''
         
